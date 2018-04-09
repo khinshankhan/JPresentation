@@ -31,6 +31,15 @@ Because it’s so terse, J is not often used in production of code. It is most o
 
 It’s great for math and science computations! (eg Project Euler)
 
+## Try this!
+## Averaging
+
+Make your code! Pick whatever language you want, and define a function for average in the fewest amount of characters/lines possible. Then get the average for [0,4].
+
+You have 3 min. - [here's some music to listen to](https://www.youtube.com/watch?v=bNiRqE4vudA)
+ 
+
+
 
 ```markdown
 Syntax highlighted code block
