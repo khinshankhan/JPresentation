@@ -46,6 +46,47 @@ You have 3 min. - [here's some music to listen to](https://www.youtube.com/watch
 2
 ```
 
+## Grammar
+
+J features 3 kinds of syntax - verbs, operators, adverbs.
+
+Nouns are “things”, like numbers and characters, as well as arrays and their atoms
+
+“Ordinary” functions compute numbers from number - these are verbs. Think + and * . 
+
+Some functions compute functions from functions. These are operators. 
+
+Adverbs are a special kind of operator which only takes one argument to the left of it. 
+
+“Verbs modify things and adverbs modify verbs”.
+
+## Examples of Verbs and Operators
+
++ , - , * , % . Your normal, everyday mathematical operation are all verbs. This includes | , the residue function. It does the opposite of mod, so 2 | 7 would return 1. 
+
+/ and ~ are examples of adverbs. +/ was used in the average function. / is the insert operator - is “inserts” the preceding verb into the given list. So +/ 1 2 3 would turn + into a list summing verb, and evaluate the list as 1 + 2 + 3. ~ exchanges the left and right arguments, so 2 | 7 is the same as 7 |~ 2. 
+
+## Monads and Dyads 
+
+Functions can have 2 arguments, one to the right or one to the right AND left. Monads only accept ones to the right, Dyads accept both. Many functions act as both. For example: 
+
+```
+Functions can have 2 arguments, one to the right or one to the right AND left.
+Monads only accept ones to the right, Dyads accept both. Many functions act as both. For example: 
+
+2 - 1 is subtraction. - as a Dyad.   - 1 is negation.( negative 1 is displayed as _1) - as a Monad.
+ 
+3 % 4 is division. % as a Dyad. % 4 is reciprocal. % as a Monad. 
+
+>: is increment by 1 as a Monad. It is larger or equal too as a Dyad.
+
+*: 2 is the square function, and would return 4. Its is Monadic only. 
+```
+
+
+
+
+
 
 
 ```markdown
