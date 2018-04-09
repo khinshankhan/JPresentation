@@ -23,6 +23,14 @@ It is a synthesis of APL and the FP and FL function-level languages created by J
 - FP: Functional Programming. 1977  The de facto standard for functional programming. 
 - FL: Functional Level. Successor of FP
 
+## What is it used for?	
+
+J is extremely strong in the mathematical, statistical, and logical analysis of data. It is also extremely terse, in that everything it does is highly compact. For example, code which could take multiple lines in Java or Python, can be done in 5 characters in J.
+
+Because it’s so terse, J is not often used in production of code. It is most often used by people for personal/internal use, but not for any situation where you would want someone to be able to read or speak it, simply because there is so much info in so few characters.
+
+It’s great for math and science computations! (eg Project Euler)
+
 
 ```markdown
 Syntax highlighted code block
