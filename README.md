@@ -82,6 +82,22 @@ Monads only accept ones to the right, Dyads accept both. Many functions act as b
 
 *: 2 is the square function, and would return 4. Its is Monadic only. 
 ```
+## So, how did averaje work?
+
+(V1 V2 V3) N is interpreted as (V1 N) V2 (V3 N) 
+
+If V1 and V3 are monads (+/ and #) and V2 is a dyad( % %), it is called a fork, and interpreted that way. 
+
++/ uses the adverb / to find the sum of the list. # is a verb called tally which finds the number of things in a list, and % will divide the two. 
+
+(1 + 2 + 3 + 4) % (4)
+
+## Euler’s Problem #1
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+
 
 
 
