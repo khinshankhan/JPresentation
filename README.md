@@ -37,7 +37,14 @@ It’s great for math and science computations! (eg Project Euler)
 Make your code! Pick whatever language you want, and define a function for average in the fewest amount of characters/lines possible. Then get the average for [0,4].
 
 You have 3 min. - [here's some music to listen to](https://www.youtube.com/watch?v=bNiRqE4vudA)
- 
+
+## AveraJe
+
+```j
+  avg=: +/%#
+  avg i.5
+2
+```
 
 
 
