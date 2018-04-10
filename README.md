@@ -62,9 +62,9 @@ Adverbs are a special kind of operator which only takes one argument to the left
 
 ## Examples of Verbs and Operators
 
-`+ , - , * , %` . Your normal, everyday mathematical operation are all verbs. This includes | , the residue function. It does the opposite of mod, so 2 | 7 would return 1. 
+`+ , - , * , %` . Your normal, everyday mathematical operation are all verbs. This includes `|` , the residue function. It does the opposite of mod, so 2 `|` 7 would return 1. 
 
-`/` and `~` are examples of adverbs. +/ was used in the average function. / is the insert operator - is “inserts” the preceding verb into the given list. So +/ 1 2 3 would turn + into a list summing verb, and evaluate the list as 1 + 2 + 3. ~ exchanges the left and right arguments, so 2 | 7 is the same as 7 |~ 2. 
+`/` and `~` are examples of adverbs. +/ was used in the average function. / is the insert operator - is “inserts” the preceding verb into the given list. So +/ 1 2 3 would turn + into a list summing verb, and evaluate the list as 1 + 2 + 3. ~ exchanges the left and right arguments, so 2 `|` 7 is the same as 7 `|~` 2. 
 
 ## Monads and Dyads 
 
