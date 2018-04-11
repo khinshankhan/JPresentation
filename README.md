@@ -93,7 +93,8 @@ Monads only accept ones to the right, Dyads accept both. Many functions act as b
 
 (V1 V2 V3) N is interpreted as (V1 N) V2 (V3 N) 
 
-If V1 and V3 are monads (`+/` and `#`) and V2 is a dyad( % %), it is called a fork, and interpreted that way. ![fork](http://www.jsoftware.com/help/learning/diag08.gif)
+If V1 and V3 are monads (`+/` and `#`) and V2 is a dyad( % %), it is called a fork, and interpreted that way. 
+![fork](http://www.jsoftware.com/help/learning/diag08.gif)
 
 `+/` uses the adverb `/` to find the sum of the list. `#` is a verb called tally which finds the number of things in a list, and `%` will divide the two. 
 
