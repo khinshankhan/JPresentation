@@ -3,6 +3,11 @@
 
 ### **PLEASE NOTE: WE'RE ONLY POSTING WHAT WE COVERED IN CLASS**
 
+---
+
+### **Throughout this turtorial, you can either [download J](http://code.jsoftware.com/wiki/System/Installation) or use this convenient [online version](https://tio.run/#j)**
+### **If you use the online version, add `echo` before each code tidbit or else outputs won't be displayed.**
+
 ## Backjround and jeneral info
 
 J was created in early 1990s.
@@ -102,39 +107,36 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 ### Yes, there are other possible solutions, but this one is most intuitive.
 
 ```j
-  +/ (i.1000) * (0 E. 3|i.1000) +. (0 E. 5|1000)
+  +/ (i.1000) * (0 E. 3|i.1000) +. (0 E. 5|i.1000)
 233168
 ```
 
 ## Euler’s Problem#1 With J (BreakDown)
 
+### Note: the `...` means it goes on, but isn't dislaying due to convenience (displaying 1000 numbers is sort of bad)
+
 Create an array of 1000 i.e. [0-999]
 
 ```j
   i.1000
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88...
 ```
 
+---
 
+Calculate module 5 of each element
 
-
-
-
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```j
+  (0 E. 5|1000)
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 ...
 ```
+
+---
+
+Calculate module 3 of each element
+
+```j
+  (0 E. 3|1000)
+1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 ...
+```
+
