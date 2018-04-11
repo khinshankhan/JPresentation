@@ -73,9 +73,19 @@ Adverbs are a special kind of operator which only takes one argument to the left
 
 `/` and `~` are examples of adverbs. +/ was used in the average function. `/` is the insert operator - it “inserts” the preceding verb into the given list. So `+/` 1 2 3 would turn `+` into a list summing verb, and evaluate the list as `1 + 2 + 3`. `~` exchanges the left and right arguments, so 2 `|` 7 is the same as 7 `|~` 2. 
 
+![~](http://www.jsoftware.com/help/learning/diag03.gif)
+
 ## Monads and Dyads 
 
-Functions can have 2 arguments, one to the right or one to the right AND left. Monads only accept ones to the right, Dyads accept both. Many functions act as both. For example: 
+Functions can have 2 arguments, one to the right or one to the right AND left. Monads only accept ones to the right,
+
+![monad](http://www.jsoftware.com/help/learning/diag01.gif)
+
+Dyads accept both. 
+
+![dyad](http://www.jsoftware.com/help/learning/diag02.gif)
+
+Many functions act as both. For example: 
 
 
 Functions can have 2 arguments, one to the right or one to the right AND left.
@@ -94,6 +104,7 @@ Monads only accept ones to the right, Dyads accept both. Many functions act as b
 (V1 V2 V3) N is interpreted as (V1 N) V2 (V3 N) 
 
 If V1 and V3 are monads (`+/` and `#`) and V2 is a dyad( % %), it is called a fork, and interpreted that way. 
+
 ![fork](http://www.jsoftware.com/help/learning/diag08.gif)
 
 `+/` uses the adverb `/` to find the sum of the list. `#` is a verb called tally which finds the number of things in a list, and `%` will divide the two. 
