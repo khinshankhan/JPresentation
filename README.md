@@ -8,6 +8,8 @@
 ### **Throughout this turtorial, you can either [download J](http://code.jsoftware.com/wiki/System/Installation) or use this convenient [online version](https://tio.run/#j)**
 ### **If you use the online version, add `echo` before each code tidbit or else outputs won't be displayed.**
 
+---
+
 ## Backjround and jeneral info
 
 J was created in early 1990s.
