@@ -104,7 +104,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 ## Euler’s Problem#1 With J (Solution)
-### Yes, there are other possible solutions, but this one is most intuitive.
+### Yes, there are other possible solutions ([Here are a few of Hank's](http://www.hakank.org/j/)), but this one is most intuitive.
 
 ```j
   +/ (i.1000) * (0 E. 3|i.1000) +. (0 E. 5|i.1000)
